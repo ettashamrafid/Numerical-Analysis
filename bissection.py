@@ -1,7 +1,7 @@
 import math
 def func(x):
     #return (4*pow(x,3)) - (3*pow(x,2)) + (8*x) -9
-    return x**3 - 5*x - 9
+    return (pow(x,2)-(9*x)+20)
 
 
 def bissection(lower,upper):
@@ -14,9 +14,11 @@ def bissection(lower,upper):
                 return bissection(lower,mid)
             if func(mid)*func(upper)<0:
                 return bissection(mid,upper)
-            
+        
         else:
             print("The range is not suitable")
 
 
-print(bissection(2,4.5))
+print(bissection(1,4.5))
+
+
