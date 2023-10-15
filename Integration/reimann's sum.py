@@ -16,7 +16,7 @@ def reimann(lower,upper,gap):
         else:
             left_sum+=abs(func(lower))
             right_sum+=abs(func(lower))
-        print(left_sum,right_sum)
+        #print(left_sum,right_sum)
         lower+=gap
 
     
