@@ -16,4 +16,4 @@ def mid_point(lower,upper,gap=1):
     return area
 
 
-print(mid_point(3,9))
+print(mid_point(2,8))
